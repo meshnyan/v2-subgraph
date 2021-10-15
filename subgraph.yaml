@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: Uniswap is a decentralized protocol for automated token exchange on Ethereum.
-repository: https://github.com/Uniswap/uniswap-v2-subgraph
+description: Pancakeswap decentralized protocol for automated token exchange on BSC.
+repository: https://github.com/meshnyan/v2-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: bsc
     source:
-      address: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'
+      address: '0xca143ce32fe78f1f7019d7d551a6402fc5350c73'
       abi: Factory
-      startBlock: 11500000
+      startBlock: 9000834
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
